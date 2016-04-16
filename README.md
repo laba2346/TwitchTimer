@@ -1,8 +1,8 @@
 # TwitchTimer
 
-Hi there! This is a really quick and dirty timer program I wrote. It writes to a .txt file every second to simulate a countdown. This is especially useful for making a countdown for your stream. In addition, because it writes to a .txt file, a text source that references the countdown.txt file allows you to modify the font of the countdown as well! No more window captures on the boring Google timer. :)
+Hi there! This is a really quick and dirty timer program I wrote. It writes to a .txt file every second to simulate a countdown. This is especially useful for making a countdown for your stream. In addition, because it writes to a .txt file, you can create a text source in OBS that references said .txt file and customize the timer's font to your desire! No more window captures on the boring Google timer. :)
 
-I'm a novice programmer, so the code is gonna look like mom's spaghetti, but please forgive me!
+I'm a novice programmer, so the code is gonna look like mom's spaghetti. Please forgive me!
 
 # How to run
 
@@ -12,8 +12,7 @@ It's simple! Click on the run.bat file, enter in the desired duration of the tim
 
 1) Right click in sources box and click on "Text"  
 2) Select "Use Text from File"  
-3) Navigate to the file directory where the .txt file is stored   
+3) Navigate to the TwitchTimer directory   
 4) Select countdown.txt  
 5) Customize the font to your liking  
 6) Happy streaming!  
-  
