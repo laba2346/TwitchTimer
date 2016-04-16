@@ -8,7 +8,7 @@ I'm a novice programmer, so the code is gonna look like mom's spaghetti, but ple
 
 It's simple! Click on the .exe, enter in the desired duration of the timer you want, and the program will begin counting down! You won't be able to see it count down in the command prompt, but rest assured, the countdown.txt file that is created is being updated each second.
 
-# To get this to work with OBS:
+# To get this to work with OBS
 
 1) Right click in sources box and click on "Text"
 2) Select "Use Text from File"
