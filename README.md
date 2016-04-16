@@ -12,7 +12,7 @@ It's simple! Click on the run.bat file, enter in the desired duration of the tim
 
 1) Right click in sources box and click on "Text"  
 2) Select "Use Text from File"  
-3) Navigate to the file directory where the .txt file is stored 
+3) Navigate to the file directory where the .txt file is stored   
 4) Select countdown.txt  
 5) Customize the font to your liking  
 6) Happy streaming!  
