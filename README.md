@@ -2,7 +2,7 @@
 
 Hi there! This is a really quick and dirty timer program I wrote. It writes to a .txt file every second to simulate a countdown. This is especially useful for making a countdown for your stream. In addition, because it writes to a .txt file, you can create a text source in OBS that references said .txt file and customize the timer's font to your desire! No more window captures on the boring Google timer. :)
 
-I'm a novice programmer, so the code is gonna look like mom's spaghetti. Please forgive me!
+I'm a novice programmer, so the code is gonna look like mom's spaghetti. Please forgive me! :)
 
 # How to run
 
