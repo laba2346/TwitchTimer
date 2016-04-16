@@ -1,0 +1,1 @@
+start /d "dist" timer.exe
