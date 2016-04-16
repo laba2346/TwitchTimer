@@ -1,4 +1,5 @@
 import time
+import os
 
 
 good = False
@@ -11,7 +12,6 @@ while not good:
         secIsInt = bool((57 >= ord(durationSec[0:1]) >= 48) and (57 >= ord(durationSec[1:2]) >= 48))
         minIsInt = bool((57 >= ord(durationMin[0:1]) >= 48) and (57 >= ord(durationMin[1:2]) >= 48))
         if secIsInt and minIsInt:
-            print("INTS EVERYWHERE!")
             if int(durationSec) < 60:
                 good = True
     if not good:
@@ -29,7 +29,8 @@ print("Writing to the text file...")
 while durationMin != 0 or durationSec != 0:
     durationSec -= 1
     time.sleep(1)
-    f = open('countdown.txt', 'w')
+    f = open("../countdown.txt", 'w')
+
     f.write(str(durationMin) + ':' + '{:02}'.format(durationSec))
 
 
