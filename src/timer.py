@@ -26,6 +26,10 @@ print("Got it!")
 
 print("Writing to the text file...")
 
+if durationSec == 0:
+    durationMin -= 1
+    durationSec = 60
+
 while durationMin != 0 or durationSec != 0:
     durationSec -= 1
     time.sleep(1)
